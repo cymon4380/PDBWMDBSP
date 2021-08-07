@@ -8,9 +8,9 @@ You can customize the configuration of your bot using the `config.json` file in 
 You can also specify tokens and databases for the main bot and for the debug bot.
 ## Tutorial
 First, you have to create a cluster and a database in [MongoDB](https://www.mongodb.com/) and paste the following things into the config file:
-> • Cluster URL (it can be found by clicking on the Connect button → Connect your application), example: `clustername.abcde.mongodb.net`;
-> • Username and password (it can be created on the Database Access tab);
-> • Database name (it can be created by clicking on the cluster name and choosing the Collections tab).
+• Cluster URL (it can be found by clicking on the Connect button → Connect your application), example: `clustername.abcde.mongodb.net`;
+• Username and password (it can be created on the Database Access tab);
+• Database name (it can be created by clicking on the cluster name and choosing the Collections tab).
 
 Next, in the `cache.py` file, you need to create cached collections that will be used in cogs. There is an example of usage in the file.
 Paste your bot token into the config file. If you have a debugging bot, also paste its token. To enable debug mode, just change `debug_mode` to `true`.
