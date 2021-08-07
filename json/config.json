@@ -1,0 +1,18 @@
+{
+    "owner_ids": [750245767142441000, 777163132483175186],
+    "shard_count": 1,
+    "default_prefixes": ["!", ".", "bot"],
+    "debug_mode": false,
+    "cluster_url": "mycluster.abcde.mongodb.net",
+    "db_username": "root",
+    "db_password": "fO5fngY3LTOc",
+
+    "release":{
+        "bot_token": "ODk0MjE3ODYxMjA1NDc4OTYx.k4NzUy.yXvt0GpwJsNPE7YTj9YtOHWZG9c",
+        "db_name": "release"
+    },
+    "debug":{
+        "bot_token": "NzQxMjM2OTg1ODc5NjEwNDU4.z7hRy3.nOTvWxkj3AMOB8Nb2xyn3vbV6Sr",
+        "db_name": "debug"
+    }
+}
