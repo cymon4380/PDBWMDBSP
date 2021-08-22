@@ -9,7 +9,7 @@ with open("json/config.json", "r", encoding="utf-8") as f:
     config = json.load(f)
 
 client = commands.AutoShardedBot(command_prefix=config["default_prefixes"], shard_count=config["shard_count"])
-client.remove_command(help)
+client.remove_command("help")
 
 cpath = "release"
 if config["debug_mode"]:
